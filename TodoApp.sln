@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp", "TodoApp\TodoApp.csproj", "{B7C76CCF-4AF0-4E4C-816D-1269518423E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp", "TodoApp\TodoApp.csproj", "{B7C76CCF-4AF0-4E4C-816D-1269518423E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.NET Core Rest API", "ASP.NET Core Rest API", "{BE913320-9F32-4658-9B42-600505BDEEE8}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoMobileApp.iOS", "Xamari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoMobileApp.UWP", "Xamarin Forms App\TodoMobileApp\TodoMobileApp.UWP\TodoMobileApp.UWP.csproj", "{B9A59572-6E11-41FC-ABD2-7F4AFA474AC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoMobileApp", "Xamarin Forms App\TodoMobileApp\TodoMobileApp\TodoMobileApp.csproj", "{98A6C5C3-73E6-4815-B96F-DF0ACE109154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoMobileApp", "Xamarin Forms App\TodoMobileApp\TodoMobileApp\TodoMobileApp.csproj", "{98A6C5C3-73E6-4815-B96F-DF0ACE109154}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -312,6 +312,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B7C76CCF-4AF0-4E4C-816D-1269518423E9} = {BE913320-9F32-4658-9B42-600505BDEEE8}
 		{FDFA82C4-B9D9-4537-8F9A-60323482ECA1} = {E1905220-1DDE-4408-B9EE-E9A935781C13}
+		{BE4003C1-2AA9-4364-B0AE-E700B6DD7CB9} = {E1905220-1DDE-4408-B9EE-E9A935781C13}
+		{B9A59572-6E11-41FC-ABD2-7F4AFA474AC2} = {E1905220-1DDE-4408-B9EE-E9A935781C13}
+		{98A6C5C3-73E6-4815-B96F-DF0ACE109154} = {E1905220-1DDE-4408-B9EE-E9A935781C13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE923501-D85D-406A-9B32-62A2F05B5078}
